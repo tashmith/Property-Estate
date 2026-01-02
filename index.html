@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Estate Agent</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/house.png?v=1" />
+
+    <meta name="description" content="Estate Agent property house application" />
+
+    <meta property="og:title" content="Estate Agent" />
+    <meta property="og:description" content="Property house application" />
+    <meta property="og:type" content="website" />
+
+    <!-- Content Security Policy -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        img-src 'self' data:;
+        style-src 'self' 'unsafe-inline';
+        script-src 'self';
+        font-src 'serif';
+        connect-src 'self';
+        frame-src https://www.google.com;
+      "
+    />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
