@@ -3,10 +3,12 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 
 export default defineConfig({
+  base: '/Property-Estate/',  
+
   plugins: [react()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'), // this maps @/ to src/
+      '@': path.resolve(__dirname, './src'),
     },
   },
   test: {
