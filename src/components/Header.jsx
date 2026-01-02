@@ -74,9 +74,7 @@ const Header = () => {
                   {link.label}
                 </Link>
               ))}
-              <Button className="mt-2 bg-accent text-accent-foreground hover:bg-accent/90 font-body font-medium">
-                List Your Property
-              </Button>
+              
             </div>
           </nav>
         )}
