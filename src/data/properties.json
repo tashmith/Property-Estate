@@ -1,0 +1,173 @@
+{
+  "properties": [
+    {
+      "id": "prop1",
+      "title": "Semi-Detached Family Home",
+      "type": "House",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "price": 750000,
+      "tenure": "Freehold",
+      "description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland.",
+      "longDescription": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior.",
+      "location": "Petts Wood Road, Petts Wood, Orpington BR5",
+      "postcode": "BR5",
+      "images": ["property-1.jpg", "livingroom-1.jpg", "diningroom-1.jpg", "kitchen-1.jpg", "room-1.jpg", "room-2.jpg", "extra-1.jpg"],
+      "floorPlan": "floor-plan-1.jpg",
+      "added": {
+        "month": "October",
+        "day": 12,
+        "year": 2022
+      },
+      "coordinates": {
+        "lat": 51.3889,
+        "lng": 0.0742
+      }
+    },
+    {
+      "id": "prop2",
+      "title": "Modern Bungalow",
+      "type": "Bungalow",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "price": 399995,
+      "tenure": "Freehold",
+      "description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat with modern fitted kitchen open plan to the living room.",
+      "longDescription": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher and a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite with a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms. This apartment being only five years old, is still under a 10 year building guarantee.",
+      "location": "Crofton Road, Orpington BR6",
+      "postcode": "BR6",
+      "images": ["property-2.jpg", "living-room-2.jpg", "dining-room-2.jpg", "room-3.jpg", "bathroom-1.jpg", "bathroom-2.jpg"],
+      "floorPlan": "floor-plan-2.jpg",
+      "added": {
+        "month": "September",
+        "day": 14,
+        "year": 2022
+      },
+      "coordinates": {
+        "lat": 51.3756,
+        "lng": 0.0589
+      }
+    },
+    {
+      "id": "prop3",
+      "title": "Luxury Flat",
+      "type": "Flat",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "price": 525000,
+      "tenure": "Freehold",
+      "description": "A beautifully presented detached bungalow offering spacious single-level living with modern amenities and a stunning landscaped garden.",
+      "longDescription": "A beautifully presented detached bungalow offering spacious single-level living with modern amenities and a stunning landscaped garden. This exceptional property has been thoughtfully extended and improved by the current owners to create a wonderful family home. The accommodation comprises a welcoming entrance hall, spacious living room with bay window, separate dining room, modern fitted kitchen with breakfast area, three double bedrooms, master with en-suite shower room, and a family bathroom. The property benefits from gas central heating, double glazing throughout, and a detached garage. The mature gardens to front and rear are a particular feature, with the rear garden enjoying a southerly aspect.",
+      "location": "Oak Lane, Chislehurst BR7",
+      "postcode": "BR7",
+      "images": ["property-3.jpg", "living-room-3.jpg", "tv-1.jpg", "dining-room-3.jpg", "room-4.jpg","room-5.jpg", "bathrrom-3.jpg","bathrrom-4.jpg"],
+      "floorPlan": "floor-plan-3.jpg",
+      "added": {
+        "month": "November",
+        "day": 5,
+        "year": 2022
+      },
+      "coordinates": {
+        "lat": 51.4178,
+        "lng": 0.0689
+      }
+    },
+    {
+      "id": "prop4",
+      "title": "Victorian Cottage",
+      "type": "Cottage",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "price": 375000,
+      "tenure": "Freehold",
+      "description": "A charming Victorian cottage brimming with character, featuring exposed beams, original fireplaces, and a delightful cottage garden in a peaceful village setting.",
+      "longDescription": "A charming Victorian cottage brimming with character, featuring exposed beams, original fireplaces, and a delightful cottage garden in a peaceful village setting. This enchanting property offers a wonderful blend of period features and modern comfort. The ground floor comprises a cosy living room with inglenook fireplace and exposed ceiling beams, a country-style kitchen with Belfast sink and range cooker, and a useful utility room. Upstairs are two double bedrooms with sloping ceilings and a family bathroom with roll-top bath. The cottage garden to the rear is a particular delight, with mature roses, lavender borders, and a patio area perfect for al fresco dining. Early viewing is highly recommended.",
+      "location": "Church Lane, Downe BR6",
+      "postcode": "BR6",
+      "images": ["property-4.jpg", "living-room-4.jpg", "dining-room-4.jpg", "kithchen-6.jpg","bathrrom-5.jpg", "room-6.jpg"],
+      "floorPlan": "floor-plan-4.jpg",
+      "added": {
+        "month": "August",
+        "day": 22,
+        "year": 2022
+      },
+      "coordinates": {
+        "lat": 51.4055,
+        "lng": 0.0153
+      }
+    },
+    {
+      "id": "prop5",
+      "title": "Modern House",
+      "type": "House",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "price": 450000,
+      "tenure": "Leasehold",
+      "description": "A spacious three bedroom maisonette spread over two floors with its own private entrance, offering the feel of a house with the convenience of apartment living.",
+      "longDescription": "A spacious three bedroom maisonette spread over two floors with its own private entrance, offering the feel of a house with the convenience of apartment living. This well-presented property provides generous living accommodation in a popular residential area. The ground floor features a bright entrance hall, large living/dining room with access to the private rear garden, and a modern fitted kitchen. The first floor comprises three bedrooms including the master with en-suite, and a family bathroom. Benefits include gas central heating, double glazing, allocated parking, and a share of the freehold. The property is conveniently located for local schools, shops, and transport links including the station with fast trains to London.",
+      "location": "Manor Road, Orpington BR5",
+      "postcode": "BR5",
+      "images": ["property-5.jpg", "living-room-5.jpg", "dining-room-5.jpg","bedroom-6.jpg", "kitchen-7.jpg", "bathroom-6jpg.jpg", "tv-2.jpg"],
+      "floorPlan": "floor-plan-5.jpg",
+      "added": {
+        "month": "July",
+        "day": 18,
+        "year": 2022
+      },
+      "coordinates": {
+        "lat": 51.3789,
+        "lng": 0.0234
+      }
+    },
+    {
+      "id": "prop6",
+      "title": "Converted Flat",
+      "type": "Flat",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "price": 895000,
+      "tenure": "Freehold",
+      "description": "A stunning barn conversion offering contemporary living spaces with original features including exposed oak beams and vaulted ceilings, set in beautiful countryside.",
+      "longDescription": "A stunning barn conversion offering contemporary living spaces with original features including exposed oak beams and vaulted ceilings, set in beautiful countryside. This exceptional property combines the character of the original 18th-century barn with high-specification modern finishes. The impressive double-height living area features a gallery landing and floor-to-ceiling glazing overlooking the gardens. The bespoke kitchen is fitted with granite worktops, integrated appliances, and a central island. Four generous bedrooms include the master suite with dressing room and en-suite bathroom. Outside, the property is approached via a private driveway and sits within approximately half an acre of landscaped gardens with countryside views. A detached triple garage with home office above completes this remarkable home.",
+      "location": "Green Lane, Farnborough BR6",
+      "postcode": "BR6",
+      "images": ["property-6.jpg", "living-room-6.jpg", "dining-room-6.jpg", "kitchen-room-9.jpg", "bathroom-8.jpg", "bedroom-8.jpg"],
+      "floorPlan": "floor-plan-6.jpg",
+      "added": {
+        "month": "December",
+        "day": 1,
+        "year": 2022
+      },
+      "coordinates": {
+        "lat": 51.3742,
+        "lng": 0.0987
+      }
+    },
+    {
+      "id": "prop7",
+      "title": "Detached Family Apartment",
+      "type": "Apartment",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "price": 850000,
+      "tenure": "Freehold",
+      "description": "An impressive five bedroom detached family home set in generous grounds, offering flexible living accommodation in one of the area's premier residential roads.",
+      "longDescription": "An impressive five bedroom detached family home set in generous grounds, offering flexible living accommodation and located in one of the area's premier residential roads. This substantial property provides well-proportioned rooms throughout and has been extended and improved by the current owners. The ground floor comprises a welcoming entrance hall, dual aspect living room with feature fireplace, separate dining room, study/home office, and a superb open-plan kitchen/family room. The first floor offers five bedrooms, including the master suite with dressing area and en-suite shower room. Externally, the property sits on a generous plot with a sweeping driveway providing parking for multiple vehicles and leading to a double garage.",
+      "location": "Kingswood Avenue, Bromley BR2",
+      "postcode": "BR2",
+      "images": ["property-7.jpg","living-room-7.jpg", "dining-room-7.jpg", "kitchen2.jpg", "tv-2.jpg", "bedroom-11.jpg", "bedroom-12.jpg","bathroom-11.jpg"],
+      "floorPlan": "floor-plan-7.jpg",
+      "added": {
+        "month": "October",
+        "day": 28,
+        "year": 2022
+      },
+      "coordinates": {
+        "lat": 51.4012,
+        "lng": 0.0345
+      }
+    }
+    
+  ]
+}
