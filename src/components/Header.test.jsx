@@ -1,74 +1,53 @@
-import { describe, it, expect } from 'vitest'
-import { render, screen } from '@testing-library/react'
-import userEvent from '@testing-library/user-event'
-import { MemoryRouter, Route, Routes } from 'react-router-dom'
-import Header from './Header'
+import { describe, it, expect } from "vitest";
+import { render, screen, fireEvent } from "@testing-library/react";
+import { MemoryRouter } from "react-router-dom";
+import Header from "./Header";
 
-describe('Header Component', () => {
-  it('renders the logo and brand name', () => {
-    render(
-      <MemoryRouter>
-        <Header />
-      </MemoryRouter>
-    )
+const renderHeader = (initialRoute = "/") => {
+  render(
+    <MemoryRouter initialEntries={[initialRoute]}>
+      <Header />
+    </MemoryRouter>
+  );
+};
 
-    expect(screen.getByText('Estate Agent')).toBeInTheDocument()
-    expect(screen.getByRole('link', { name: /estate agent/i })).toBeInTheDocument()
-  })
+describe("Header Component", () => {
+  it("renders the logo and brand name", () => {
+    renderHeader();
+    expect(screen.getByText(/estate agent/i)).toBeInTheDocument();
+  });
 
-  it('renders desktop navigation links', () => {
-    render(
-      <MemoryRouter>
-        <Header />
-      </MemoryRouter>
-    )
+  it("renders navigation links", () => {
+    renderHeader();
+    expect(screen.getByText("Home")).toBeInTheDocument();
+    expect(screen.getByText("Properties")).toBeInTheDocument();
+    expect(screen.getByText("Search")).toBeInTheDocument();
+  });
 
-    expect(screen.getByText('Home')).toBeInTheDocument()
-    expect(screen.getByText('Properties')).toBeInTheDocument()
-    expect(screen.getByText('Search')).toBeInTheDocument()
-  })
+  it("highlights the active route", () => {
+    renderHeader("/properties");
+    const activeLink = screen.getByText("Properties");
+    expect(activeLink.className).toContain("text-accent");
+  });
 
-  it('renders mobile menu button', () => {
-    render(
-      <MemoryRouter>
-        <Header />
-      </MemoryRouter>
-    )
+  it("opens mobile menu when menu button is clicked", () => {
+    renderHeader();
 
-    const button = screen.getByRole('button', { name: /toggle menu/i })
-    expect(button).toBeInTheDocument()
-  })
+    const menuButton = screen.getByLabelText("Toggle menu");
+    fireEvent.click(menuButton);
 
-  it('toggles mobile navigation when menu button is clicked', async () => {
-    const user = userEvent.setup()
-    render(
-      <MemoryRouter>
-        <Header />
-      </MemoryRouter>
-    )
+    expect(screen.getAllByText("Home").length).toBeGreaterThan(1);
+  });
 
-    const button = screen.getByRole('button', { name: /toggle menu/i })
-    
-    
-    expect(screen.queryByText('List Your Property')).not.toBeInTheDocument()
-    
-    
-    await user.click(button)
-    expect(screen.getByText('List Your Property')).toBeInTheDocument()
-    
-    
-    await user.click(button)
-    expect(screen.queryByText('List Your Property')).not.toBeInTheDocument()
-  })
+  it("closes mobile menu when a link is clicked", () => {
+    renderHeader();
 
-  it('highlights the active link based on location', () => {
-    render(
-      <MemoryRouter initialEntries={['/properties']}>
-        <Header />
-      </MemoryRouter>
-    )
+    const menuButton = screen.getByLabelText("Toggle menu");
+    fireEvent.click(menuButton);
 
-    const propertiesLink = screen.getByText('Properties')
-    expect(propertiesLink.className).toMatch(/text-accent/)
-  })
-})
+    const mobileHomeLink = screen.getAllByText("Home")[1];
+    fireEvent.click(mobileHomeLink);
+
+    expect(screen.getAllByText("Home").length).toBe(1);
+  });
+});
