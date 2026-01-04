@@ -9,8 +9,8 @@ const Header = () => {
 
   const navLinks = [
     { href: "/", label: "Home" },
-    { href: "/properties", label: "Properties" },
-    { href: "/search", label: "Search" },
+    { href: "/Search", label: "Search" },
+    { href: "/Properties", label: "Properties" },
   ];
 
   const isActive = (path) => location.pathname === path;
