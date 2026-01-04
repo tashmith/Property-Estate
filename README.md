@@ -22,4 +22,4 @@ The Estate Agent App is a React-based web application for browsing property list
 1. Clone the repository:
 ```bash
 git clone https://github.com/tashmith/Property-Estate.git
-cd Estate-Agent-App
+sit live url https://estate-agent-seven.vercel.app/
